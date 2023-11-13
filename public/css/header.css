@@ -1,4 +1,30 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: #f7fafd;
+}
+
+header {
+    position: sticky; /*Cuidado que en otras secciones el margin top cambia; creo que son 40px*/
+    margin-top: 40px;
+}
+
+#header__logo {
+    width: 107px;
+}
+
+#header__sections {
+    text-transform: uppercase;
+    font-size: 90p; /*Revisar esto*/
+    color: #202020;
+}
+
+#header__navbar a {
+    text-decoration: none;
+}
+
+#header__button {
+    color: #ff556e; /*Revisar esto*/
+    text-transform: uppercase;
 }
