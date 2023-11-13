@@ -3,11 +3,15 @@
     font-family: 'Open Sans', sans-serif; 
     scroll-behavior: smooth;
     background-color: #f7fafd;
+    padding: 0;
 }
 
 header {
     position: sticky; /*Cuidado que en otras secciones el margin top cambia; creo que son 40px*/
-    margin-top: 40px;
+    top: -20px;
+    padding: 40px 70px 0; /*Mirar el padding bottom*/
+    display: flex;
+    justify-content: space-between;
 }
 
 #header__logo {
@@ -18,13 +22,67 @@ header {
     text-transform: uppercase;
     font-size: 90p; /*Revisar esto*/
     color: #202020;
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+}
+
+#header__navbar ul {
+    display: flex;
+    column-gap: 10px;
+    list-style: none; /*Para quitar el punto*/
 }
 
 #header__navbar a {
     text-decoration: none;
+    color: inherit;
+}
+
+#header__navbar #extra__sections {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 15px);
+    flex-direction: column;
+    white-space: nowrap;
+    padding: 15px;
+    box-shadow: 0px 5px 5px 5px #0002;
+    display: none;/*display: flex pa que se vea para ajustarlo*/
+}
+
+#navbar__extra {
+    position: relative;
+}
+
+#navbar__extra:hover #extra__sections{
+    display:flex;
+}
+
+#extra__sections::after {
+    content: "";
+    position: absolute;
+    display:block;
+    /*background: red;*/
+    height: 15px;
+    width: 100%;
+    top: -15px;
+    left: 0;
+}
+
+#extra__sections li{
+    padding: 20px 10px;
+    margin: 0 10px;
+    border-bottom: 1px solid #eef3f6;
+}
+
+#extra__sections li:last-child {
+    border-bottom: none;
 }
 
 #header__button {
     color: #ff556e; /*Revisar esto*/
     text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid  #ff556e;
+    border-radius: 20px;
 }
+ 

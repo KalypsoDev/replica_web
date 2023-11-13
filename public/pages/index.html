@@ -13,7 +13,7 @@
 <body>
     <header>
         <div id="header__logo">
-            <img class="logo" src="../../src/assets/img/logo.svg" alt="Logo de Sync">
+            <img class="logo" src="../../src/assets/img/logo.svg" alt="Sync's logo">
         </div>
         <div id="header__sections">
             <nav id="header__navbar">
@@ -21,7 +21,13 @@
                     <li><a href="#description">Description</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#screens">Screens</a></li>
-                    <li><a href="#extra">Extra</a></li> <!--Cuidado que esto no navega, sino que es un desplegable-->
+                    <li id="navbar__extra"><a href="#extra">Extra</a><img src="../../src/assets/img/down-arrow.png" alt="Section extra">
+                        <ul id="extra__sections">
+                            <li>Article details</li>
+                            <li>Terms conditions</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                </li> <!--Cuidado que esto no navega, sino que es un desplegable-->
                 </ul>
             </nav>
             <button id="header__button">Download</button>
@@ -29,8 +35,8 @@
     </header>
     <main>
         <section id="home">
-            <div id="home__download"
-                <h1>Mobile App Landing Page</h1><!--¿Qué pasa aquí?-->
+            <div id="home__download">
+                <h1>Mobile App Landing Page</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
                 <div class="download__buttons">
                     <button>
@@ -41,6 +47,7 @@
                     </button>
                 </div>
             </div>
+            <img src="" alt="">
             <div id="home__cards">
 
             </div>
