@@ -8,8 +8,8 @@
 
 header {
     position: sticky; /*Cuidado que en otras secciones el margin top cambia; creo que son 40px*/
-    top: -20px;
-    padding: 40px 70px 0; /*Mirar el padding bottom*/
+    top: -15px;
+    padding: 40px 70px 15px; /*Revisado padding bottom*/
     display: flex;
     justify-content: space-between;
 }
@@ -85,4 +85,10 @@ header {
     border: 2px solid  #ff556e;
     border-radius: 20px;
 }
- 
+
+
+/*Medidas responsive mobile
+
+Hacer menú hamburguesa.
+
+*/
