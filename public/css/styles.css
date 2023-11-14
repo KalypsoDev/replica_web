@@ -1,0 +1,13 @@
+html {
+    background-color: #f7fafd;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 0;
+}
+
+
+
