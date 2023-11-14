@@ -9,6 +9,7 @@ main {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    background: #c0fbfb; /*TODO: Change color-background*/
 }
 
 #home__download {
@@ -44,10 +45,10 @@ main {
     margin-bottom: 90px;
 }
 
-.br--mobile {
-    display: none;
+.text--full {
+    width: 999px; /*TODO: Review*/
+    margin: 20px auto 30px;
 }
-
 
 /*Medidas responsive mobile
 
@@ -55,22 +56,13 @@ main {
     margin: 0 110px 90px 150px;
 }
 
-.br--mobile {
-    display: block;
-}
-
-.br--desktop {
-    display: none;
-}
-
-
-
 */
 
 
 h1 {
     font-size: 50px;
 }
+
 
 #home__download p {
     color: #828282;
@@ -110,29 +102,36 @@ h1 {
 
 Usar clases en vez de ids si se repiten*/
 
+#medium__icons--float {
+    position: relative;
+    overflow: visible;
+}
+
+
 /*Revisar*/
 #circle--white--left {
-    height: 40%;
+    height: 400px;
+    width: 400px;
     position: absolute; 
-    top: 400px;
+    top: -150px;
     left: 0;
     transform: translateX(-50%)
 }
 
 #circle--white--right {
-    height: 40%;
+    height: 400px;
+    width: 400px;
     position: absolute; 
-    top: 350px;
+    top: -200px;
     right: 0;
-    transform: translateX(50%)
+    transform: translateX(50%);
 }
 
 #circle--blue--left {
-    height: 10%;
+    height: 100px;
     position: absolute;
-    top: 400px;
-    left: 50px;
-    background-color: transparent;
+    top: -100px;
+    left: 140px;
 }
 
 #header__mobile {

@@ -5,6 +5,8 @@ header {
     padding: 40px 70px 15px; /*Revisado padding bottom*/
     display: flex;
     justify-content: space-between;
+    background-color: #f7fafd;
+    z-index: 999;
 }
 
 #header__logo {
@@ -77,6 +79,7 @@ header {
     padding: 10px 20px;
     border: 2px solid  #ff556e;
     border-radius: 20px;
+    background-color: #f7fafd;
 }
 
 #header__button:hover {

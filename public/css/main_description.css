@@ -10,7 +10,7 @@
 }
 
 #description__organize img {
-    max-width: 100%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -61,6 +61,11 @@ Creo que ya no hace falta porque está en home
     display: flex;
 }
 
+#schedule__left {
+    display: flex;
+    flex-direction: column;
+}
+
 .button--white {
     color: #383939; /*Revisar esto*/
     background-color: transparent;
@@ -72,4 +77,10 @@ Creo que ya no hace falta porque está en home
 
 .button--white:hover {
     cursor: pointer;
+}
+
+
+#schedule__right img {
+    max-width: 80%;
+    margin: auto;
 }
