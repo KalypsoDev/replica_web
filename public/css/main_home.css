@@ -112,6 +112,36 @@ h1 {
     cursor: pointer;
 }
 
+/*Revisar si lo voy a usar??
+#medium__icons--float
+
+Usar clases en vez de ids si se repiten*/
+
+/*Revisar*/
+#circle--white--left {
+    height: 40%;
+    position: absolute; 
+    top: 400px;
+    left: 0;
+    transform: translateX(-50%)
+}
+
+#circle--white--right {
+    height: 40%;
+    position: absolute; 
+    top: 350px;
+    right: 0;
+    transform: translateX(50%)
+}
+
+#circle--blue--left {
+    height: 10%;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    background-color: transparent;
+}
+
 #header__mobile {
     display: flex;
     justify-content: center;
