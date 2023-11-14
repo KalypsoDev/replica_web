@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: #f7fafd;
+    padding: 0;
+} /*Crear una variable que se llame reset?*/
+
+#home__cards {
+    display: flex;
+}
+
+.card--colored {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--padding {
+    min-width: 60px;
+    max-width: 70px;
+    padding: 30px;
+}
+
+#icon__users {
+    background-color: #ebe7fa;
+}
+
+#icon__code {
+    background-color: #daf4ef;
+}
+
+#icon__gear {
+    background-color: #f8e5ea;
+}
+
+#icon__comments {
+    background-color: #f8f1de;
+}
+
+#icon__rocket {
+    background-color: #e1f2fa;
+}
