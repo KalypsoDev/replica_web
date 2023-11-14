@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: #f7fafd;
+    padding: 0;
+} /*Crear una variable que se llame reset?*/
+
+#statistics__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e8eff6;
+}
+
+
+/*Revisar*/
+.card--grey {
+    background-color: #e8eff6;
+}
+
+.card--colored h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.card--colored p {
+    color: #909294;
+}
+
+#icon__users {
+    color: #aa7eec;
+}
+
+#icon__code {
+    color:#19ca94;
+}
+
+#icon__gear {
+    color: #ff556e;
+}
+
+#icon__comments {
+    color: #ffb310;
+}
+
+#icon__rocket {
+    color: #4fb9e8;
+}

@@ -188,29 +188,27 @@ Usar clases en vez de ids si se repiten*/
     background-color: transparent;
 }
 
-#icon__users {
+#icon__users--background {
     background-color: #ebe7fa;
     color: #aa7eec;
 }
 
-
-
-#icon__code {
+#icon__code--background {
     background-color: #daf4ef;
     color:#19ca94;
 }
 
-#icon__gear {
+#icon__gear--background {
     background-color: #f8e5ea;
     color: #ff556e;
 }
 
-#icon__comments {
+#icon__comments--background {
     background-color: #f8f1de;
     color: #ffb310;
 }
 
-#icon__rocket {
+#icon__rocket--background {
     background-color: #e1f2fa;
     color: #4fb9e8;
 }
