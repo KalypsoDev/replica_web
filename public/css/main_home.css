@@ -7,7 +7,64 @@
 } /*Crear una variable que se llame reset?*/
 
 #home {
+    margin-top: 55px; /*Revisar esto para tener en cuenta el margin del header*/
     margin-bottom: 30px;
+}
+
+#home__download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#above__icons--float {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 115px 35px 65px;
+}
+
+#green--diamond {
+    height: 15px;
+    width: 15px;
+}
+
+#yellow--circle {
+    height: 25px;
+    width: 25px;
+}
+
+#home__description { /*¿Será necesario tanto flex??*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /*margin: 0 110px 90px 150px;*/
+
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+#home__download p {
+    color: #828282;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.button__download {
+    color: #ffffff; /*Revisar esto*/
+    background-color: #ff556e;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid  #ff556e;
+    border-radius: 20px;
+}
+
+.button__download i {
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #home__cards {
@@ -38,22 +95,27 @@
 
 #icon__users {
     background-color: #ebe7fa;
+    color: #aa7eec;
 }
 
 
 
 #icon__code {
     background-color: #daf4ef;
+    color:#19ca94;
 }
 
 #icon__gear {
     background-color: #f8e5ea;
+    color: #ff556e;
 }
 
 #icon__comments {
     background-color: #f8f1de;
+    color: #ffb310;
 }
 
 #icon__rocket {
     background-color: #e1f2fa;
+    color: #4fb9e8;
 }
