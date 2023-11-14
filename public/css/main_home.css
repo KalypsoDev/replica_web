@@ -9,6 +9,8 @@
 #home {
     margin-top: 55px; /*Revisar esto para tener en cuenta el margin del header*/
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 #home__download {
@@ -100,16 +102,35 @@ h1 {
     margin-right: 5px;
 }
 
+#header__mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+/* Usar para responsive?
+#header__mobile img {
+    max-width: 90%;
+    margin: auto;
+}
+*/
+#header__mobile img {
+    max-width: 60%;
+    margin: auto;
+}
+
 #home__cards {
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 70px;
+    flex-wrap: wrap;
 }
 
 .card--colored {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
 }
 
@@ -120,6 +141,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .card--padding i {
