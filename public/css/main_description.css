@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: #f7fafd;
+    padding: 0;
+} /*Crear una variable que se llame reset?*/
+
+#description {
+    display: flex;
+    flex-direction: column;
+}
+
+#description__organize {
+    display: flex;
+    margin: 120px 30px 130px  65px;
+}
+
+#description__organize img {
+    max-width: 100%;
+    margin: auto;
+}
+
+#organize__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+#organize__right p {
+    margin: 45px 0 35px 0;
+    color: #828282;
+    font-size: 20px;
+}
+
+/*Medidas responsive mobile
+
+#home__description {    
+    margin: 0 110px 90px 150px; ???
+}
+
+Creo que ya no hace falta porque está en home
+.br--mobile {
+    display: block;
+}
+
+.br--desktop {
+    display: none;
+}
+
+*/
+
+#organize__right ul {
+    color: #828282;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 15px; /*Esto está cutre*/
+}
+
+#organize__right li {
+    color: #828282;
+    font-size: 20px;
+    list-style: square;
+}
+
+#description__schedule {
+    display: flex;
+}
+
+.button--white {
+    color: #383939; /*Revisar esto*/
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid  #383939;
+    border-radius: 30px;
+}
+
+.button--white:hover {
+    cursor: pointer;
+}

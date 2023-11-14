@@ -6,6 +6,11 @@
     padding: 0;
 } /*Crear una variable que se llame reset?*/
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 #home {
     margin-top: 55px; /*Revisar esto para tener en cuenta el margin del header*/
     margin-bottom: 30px;
@@ -87,7 +92,9 @@ h1 {
     column-gap: 10px;
 }
 
-.button__download {
+/*No puedo reutilizar el componente buttón--red?*/
+
+.button--red {
     color: #ffffff; /*Revisar esto*/
     background-color: #ff556e;
     text-transform: uppercase;
@@ -96,12 +103,12 @@ h1 {
     border-radius: 30px;
 }
 
-.button__download i {
+.button--red i {
     background-color: transparent;
     margin-right: 5px;
 }
 
-.button__download:hover {
+.button--red:hover {
     cursor: pointer;
 }
 
