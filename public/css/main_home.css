@@ -124,8 +124,7 @@ h1 {
 
 #home__cards {
     display: flex;
-    justify-content: center;
-    column-gap: 70px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -135,6 +134,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 5px;
 }
 
 .card--padding {
