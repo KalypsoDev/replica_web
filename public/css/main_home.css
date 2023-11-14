@@ -98,8 +98,11 @@ h1 {
 
 .button__download i {
     background-color: transparent;
-    color: #ffffff;
     margin-right: 5px;
+}
+
+.button__download:hover {
+    cursor: pointer;
 }
 
 #header__mobile {

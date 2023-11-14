@@ -86,6 +86,9 @@ header {
     border-radius: 20px;
 }
 
+#header__button:hover {
+    cursor: pointer;
+}
 
 /*Medidas responsive mobile
 
