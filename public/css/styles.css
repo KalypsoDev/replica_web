@@ -9,5 +9,6 @@ html {
     padding: 0;
 }
 
-
-
+section {
+    min-height: 100vh;
+}/*Revisar si lo quito*/

@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="../css/main_home.css">
     <link rel="stylesheet" href="../css/main_description.css">
     <link rel="stylesheet" href="../css/main_screens.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <!--Creo que por algún motivo no me está cogiendo la letra-->
     <link rel="shortcut icon" href="../../src/assets/img/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b2d63c5503.js" crossorigin="anonymous"></script>
+    <script src="../js/header.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -24,7 +26,7 @@
         <div id="header__sections">
             <nav id="header__navbar">
                 <ul>
-                    <li><a href="#description">Description</a></li>
+                    <li><a href="#description" class="active">Description</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#screens">Screens</a></li>
                     <li id="navbar__extra"><a href="#extra">Extra</a><img src="../../src/assets/img/down-arrow.png" alt="Section extra">
@@ -36,7 +38,7 @@
                 </li>
                 </ul>
             </nav>
-            <a href="https://factoriaf5.org/"><button id="header__button" alt="Link to Factoría F5">Download</button></a>
+            <a href="https://factoriaf5.org/"><button id="header__button">Download</button></a>
             <!--Se pone el alt en el botón???-->
         </div>
     </header>
@@ -152,11 +154,56 @@
             <p class="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
         </section>
         <section id="screens">
-            <div id="screens_users">
-                <div class="testimonials">
-                    <article></article> <!--Usaré article aquí?-->
-                    <article></article>
-                    <article></article>
+            <div id="screens__testimonials">
+                <div class="testimonials__container">
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p>Rick Jones - Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p>Rick Jones - Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p>Rick Jones - Designer</p>
+                        </div>
+                    </div>
+
+
+
                 </div>
                 <div id="screens__sponsors">
                     <img src="" alt="">
@@ -240,8 +287,7 @@
                 </div>
             </div>
             <div id="footer__socialmedia"> 
-                <!--Hay que poner alt??
-                -->
+
                 <i class="fa-brands fa-instagram" style="color: #ffffff; background-color: #999999; border-radius: 100%;"></i>
                 <i class="fa-brands fa-pinterest-p" style="color: #ffffff; background-color: #999999; border-radius: 100%;"></i>
                 <i class="fa-brands fa-twitter" style="color: #ffffff; background-color: #999999; border-radius: 100%;"></i>
