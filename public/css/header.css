@@ -28,13 +28,30 @@ header {
     list-style: none; /*Para quitar el punto*/
 }
 
+#header__navbar a:hover {
+    color: red;
+} /*Cuando el ratón está encima*/
+
+#header__navbar ul:hover a.active:not(:hover) {
+    color: #202020;
+} 
+
+
+
+/*Todo el bloque de abajo ordenarlo en el código*/
+
+#navbar__extra:hover #extra__sections{
+    display:flex;
+    background: #f7fafd;
+}
+
 #header__navbar a {
     text-decoration: none;
     color: inherit;
 }
 #header__navbar a.active {
     color: red;
-}
+} /*Lo pone js*/
 
 #header__navbar #extra__sections {
     position: absolute;
@@ -51,10 +68,7 @@ header {
     position: relative;
 }
 
-#navbar__extra:hover #extra__sections{
-    display:flex;
-    background: #f7fafd;
-}
+
 
 #extra__sections::after {
     content: "";
@@ -86,11 +100,12 @@ header {
     background-color: #f7fafd;
 }
 
-#header__button:hover {
-    cursor: pointer;
-}
 
-/*Medidas responsive mobile
+
+
+/*TODO hover extra*/
+
+/*TODO: Responsive for mobile
 
 Hacer menú hamburguesa.
 

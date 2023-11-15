@@ -1,7 +1,7 @@
 const observer = new IntersectionObserver(trackingScroll, {
     root: null,
     rootMargin: '0px',
-    threshold: 0.25
+    threshold: 0.50
 });
 
 function trackingScroll (entries) {
@@ -15,11 +15,12 @@ function trackingScroll (entries) {
         a.classList.remove('active');
     })
 
-    document.querySelector(`#header__navbar a[href="#${element.id}"]`).classList.add('active');
+    document.querySelector(`#header__navbar a[href="#${element.id}"]`)?.classList.add('active');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const sections = [
+        'home',
         'description',
         'features',
         'screens',
