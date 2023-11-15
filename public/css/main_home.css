@@ -9,7 +9,7 @@ main {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    background: #c0fbfb; /*TODO: Change color-background*/
+    overflow: hidden;
 }
 
 #home__download {
@@ -43,11 +43,6 @@ main {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 90px;
-}
-
-.text--full {
-    width: 999px; /*TODO: Review*/
-    margin: 20px auto 30px;
 }
 
 /*Medidas responsive mobile
@@ -93,10 +88,6 @@ h1 {
     margin-right: 5px;
 }
 
-.button--red:hover {
-    cursor: pointer;
-}
-
 /*Revisar si lo voy a usar??
 #medium__icons--float
 
@@ -105,6 +96,7 @@ Usar clases en vez de ids si se repiten*/
 #medium__icons--float {
     position: relative;
     overflow: visible;
+    z-index: -1;
 }
 
 
