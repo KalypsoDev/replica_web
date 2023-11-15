@@ -1,0 +1,87 @@
+#screens {
+    display: flex;
+    flex-direction: column;
+}
+
+#screens__testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__container {
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+    margin: 0 auto;
+}
+
+.testimonials__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 290px;
+}
+
+.testimonials__score::after {
+    content: "";
+    display:block;
+    border-bottom: 2px solid #e6e8e8;
+    height: 0;
+    width: 48px;
+    margin: auto;
+}
+
+
+.fa-star {
+    color: #ffb310;
+}
+
+#statistics__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e8eff6;
+}
+
+
+/*Revisar*/
+.card--grey {
+    background-color: #e8eff6;
+}
+
+.card--colored h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.card--colored p {
+    color: #909294;
+}
+
+#icon__users {
+    color: #aa7eec;
+}
+
+#icon__code {
+    color:#19ca94;
+}
+
+#icon__gear {
+    color: #ff556e;
+}
+
+#icon__comments {
+    color: #ffb310;
+}
+
+#icon__rocket {
+    color: #4fb9e8;
+}
