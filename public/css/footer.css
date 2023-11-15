@@ -1,7 +1,22 @@
+#footer {
+    display: flex;
+}
+
 #footer__socialmedia i {
     height: 35px;
     width: 35px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff; 
+    background-color: #999999; 
+    border-radius: 100%;
+}
+
+#footer__socialmedia a:hover {
+    cursor: pointer;
+}
+
+#schedule left li {
+    color: #49d2a9;
 }
