@@ -9,6 +9,10 @@ html {
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     min-height: 100vh;
 }/*Revisar si lo quito*/
