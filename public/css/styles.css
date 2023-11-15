@@ -1,6 +1,7 @@
 html {
     background-color: #f7fafd;
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 * {
@@ -16,6 +17,11 @@ body {
 section {
     min-height: 100vh;
 }/*Revisar si lo quito*/
+
+.text--full {
+    max-width: 999px; /*Max para que no haga scroll horizontal*/
+    margin: 20px auto 30px;
+}
 
 button {
     cursor: pointer;
