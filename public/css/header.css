@@ -9,6 +9,10 @@ header {
     z-index: 999;
 }
 
+header > button {
+    display: none;
+}
+
 #header__logo {
     width: 107px;
 }
@@ -24,7 +28,7 @@ header {
 
 #header__navbar ul {
     display: flex;
-    column-gap: 10px;
+    column-gap: 25px;
     list-style: none; /*Para quitar el punto*/
 }
 
@@ -46,6 +50,7 @@ header {
 }
 
 #header__navbar a {
+    font-weight: bold;
     text-decoration: none;
     color: inherit;
 }
@@ -67,8 +72,6 @@ header {
 #navbar__extra {
     position: relative;
 }
-
-
 
 #extra__sections::after {
     content: "";
@@ -98,15 +101,64 @@ header {
     border: 2px solid  #ff556e;
     border-radius: 20px;
     background-color: #f7fafd;
+    font-weight: bold;
 }
 
+@media (max-width: 800px) {
+    header {
+        top: 0; /*Que no se meta para arriba*/
+    }
+    #header__sections {
+        display: none; /*para que no sea hasta que se pinche en el menú*/
+        flex-direction: column-reverse; /*botón arriba*/
+        row-gap: 5px;
+        position: absolute; /*ya no ocupa espacio, lo sacamos del flow*/
+        right: 2px;
+        top: 2px;
+        background: #f7fafd;
+        box-shadow: 0px 5px 5px 5px #0002;
+        padding: 20px 20px 20px;
+        border-radius: 10px;
+    }
+    #header__sections > #header__navbar > ul {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    #header__sections img {
+        display: none; /*ocultar triángulo*/
+    }
 
+    #header__sections #navbar__extra ul {
+        padding: 10px 0;
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        row-gap: 3px
+    }
+    #header__sections #navbar__extra ul li {
+        padding: 0;
+        margin: 0;
+        font-size: 95%;
+    }
 
-
-/*TODO hover extra*/
-
-/*TODO: Responsive for mobile
-
-Hacer menú hamburguesa.
-
-*/
+    header > button {
+        display: block; /*hay que ponerlo porque estaba en none*/
+        position: fixed;
+        right: 5px;
+        top: 5px;
+        background: transparent;
+        border: none;
+    }
+    header > button > svg:last-child {
+        display: none;
+    }
+    header > button:focus > svg:first-child {
+        display: none;
+    }
+    header > button:focus > svg:last-child {
+        display: block;
+    }
+    header:focus-within #header__sections {
+        display: flex; /*si hay foco en el header (en el botón)*/
+    }
+}
