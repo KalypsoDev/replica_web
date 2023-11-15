@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/main_home.css">
     <link rel="stylesheet" href="../css/main_description.css">
+    <link rel="stylesheet" href="../css/main_features.css">
     <link rel="stylesheet" href="../css/main_screens.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -31,16 +32,21 @@
                     <li><a href="#screens">Screens</a></li>
                     <li id="navbar__extra"><a href="#extra">Extra</a><img src="../../src/assets/img/down-arrow.png" alt="Section extra">
                         <ul id="extra__sections">
-                            <li>Article details</li>
-                            <li>Terms conditions</li>
-                            <li>Privacy policy</li>
+                            <li id="#extra__article"><a href="article.html">Article details</a></li>
+                            <li id="#extra__terms"><a href="article.html">Terms conditions</a></li>
+                            <li id="#extra__policy"><a href="policy.html">Privacy policy</a></li>
                         </ul>
                 </li>
                 </ul>
             </nav>
             <a href="https://factoriaf5.org/"><button id="header__button">Download</button></a>
-            <!--Se pone el alt en el botón???-->
+            
         </div>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path fill="currentColor" d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"/></svg>
+    
+            <svg onclick="this.parentElement.blur()" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 1024 1024"><path fill="currentColor" fill-rule="evenodd" d="M799.855 166.312c.023.007.043.018.084.059l57.69 57.69c.041.041.052.06.059.084a.118.118 0 0 1 0 .069c-.007.023-.018.042-.059.083L569.926 512l287.703 287.703c.041.04.052.06.059.083a.118.118 0 0 1 0 .07c-.007.022-.018.042-.059.083l-57.69 57.69c-.041.041-.06.052-.084.059a.118.118 0 0 1-.069 0c-.023-.007-.042-.018-.083-.059L512 569.926L224.297 857.629c-.04.041-.06.052-.083.059a.118.118 0 0 1-.07 0c-.022-.007-.042-.018-.083-.059l-57.69-57.69c-.041-.041-.052-.06-.059-.084a.118.118 0 0 1 0-.069c.007-.023.018-.042.059-.083L454.073 512L166.371 224.297c-.041-.04-.052-.06-.059-.083a.118.118 0 0 1 0-.07c.007-.022.018-.042.059-.083l57.69-57.69c.041-.041.06-.052.084-.059a.118.118 0 0 1 .069 0c.023.007.042.018.083.059L512 454.073l287.703-287.702c.04-.041.06-.052.083-.059a.118.118 0 0 1 .07 0Z"/></svg>
+        </button>
     </header>
     <main>
         <section id="home">
@@ -62,7 +68,6 @@
                     </div>
                 </div>
             </div>
-            <!--PREGUNTAR CÍRCULOS BLANCOS Y AZUL Y HACERLO-->
             <div id="medium__icons--float">
                 <img id="circle--white--left" src="../../src/assets/img/decorative-white-circle.svg" alt="White left circle">
                 <img id="circle--white--right" src="../../src/assets/img/decorative-white-circle.svg" alt="White right circle">
@@ -132,10 +137,9 @@
                     </div>
                     <p><b>Schedule tasks</b> to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders.</p>
                     <ul>
-                        <li><i class="fa-regular fa-square-check" style="color: #49d2a9;"></i>You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</li>
-                        <li><i class="fa-regular fa-square-check" style="color: #49d2a9;"></i>It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</li>
-                        <li><i class="fa-regular fa-square-check" style="color: #49d2a9;"></i>Use phone reminders to free up your long term memory which will reduce stress and make you more productive</li>
-                    <!-- Quitar de aquí y meter en css el estilo de los checkbox? -->
+                        <li><i class="fa-regular fa-square-check"></i>You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</li>
+                        <li><i class="fa-regular fa-square-check"></i>It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</li>
+                        <li><i class="fa-regular fa-square-check"></i>Use phone reminders to free up your long term memory which will reduce stress and make you more productive</li>
                     </ul>
                     <div class="terms__buttons">
                         <a href="https://femcoders.factoriaf5.org/"><button class="button--red">TERMS
@@ -151,6 +155,8 @@
         </section>
         <section id="features">
             <h2>Special Features</h2>
+            <p class="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
+            <p class="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
             <p class="text--full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia velit at provident, culpa officia qui sequi rerum modi laborum beatae deserunt id, voluptatibus expedita maxime aliquid libero, nisi repellendus ab?</p>
         </section>
         <section id="screens">
@@ -168,7 +174,7 @@
                             <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
                         </div>
                         <div class="testimonials__user"> 
-                            <p>Rick Jones - Designer</p>
+                            <p><b>Rick Jones - Designer</b></p>
                         </div>
                     </div>
                     <div class="testimonials__cards">
@@ -180,10 +186,10 @@
                             <i class="fa-solid fa-star"></i> 
                         </div>
                         <div class="testimonials__opinion">
-                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                            <p>After trying out a large number of personal coaching apps I decided to give Sync a try and what a wonderful surprise it was.</p>
                         </div>
                         <div class="testimonials__user"> 
-                            <p>Rick Jones - Designer</p>
+                            <p><b>Lynda Marquez - Developer</b></p>
                         </div>
                     </div>
                     <div class="testimonials__cards">
@@ -195,14 +201,12 @@
                             <i class="fa-solid fa-star"></i> 
                         </div>
                         <div class="testimonials__opinion">
-                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                            <p>Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels I never thought possible.</p>
                         </div>
                         <div class="testimonials__user"> 
-                            <p>Rick Jones - Designer</p>
+                            <p><b>Jay Frisco - Marketer</b></p>
                         </div>
                     </div>
-
-
 
                 </div>
                 <div id="screens__sponsors">
@@ -212,10 +216,52 @@
                     <img src="" alt="">
                     <img src="" alt="">
                 </div>
-                <div class="testimonials">
-                    <article></article> <!--Usaré article aquí?-->
-                    <article></article>
-                    <article></article>
+                <div class="testimonials__container">
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p><b>Rick Jones - Designer</b></p>
+                        </div>
+                    </div>
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>After trying out a large number of personal coaching apps I decided to give Sync a try and what a wonderful surprise it was.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p><b>Lynda Marquez - Developer</b></p>
+                        </div>
+                    </div>
+                    <div class="testimonials__cards">
+                        <div class="testimonials__score">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i> 
+                        </div>
+                        <div class="testimonials__opinion">
+                            <p>Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels I never thought possible.</p>
+                        </div>
+                        <div class="testimonials__user"> 
+                            <p><b>Jay Frisco - Marketer</b></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="screens_statistics">
