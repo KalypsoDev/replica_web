@@ -2,7 +2,7 @@
 🎯 Main goal: create a replica of a website.
 
 ## Deployment
-🚀 This project has been deployed on Vercel : [replica_sync](https://xxxxxx.vercel.app/)
+🚀 This project has been deployed on Cloudflare Pages : [replica_sync](https://replica-website-sync.pages.dev/)
 
 ## Sitemap
 👀 Here you can see the sitemap: 
