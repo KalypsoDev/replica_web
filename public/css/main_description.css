@@ -2,11 +2,12 @@
 #description {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #description__organize {
     display: flex;
-    margin: 120px 30px 130px  65px;
+    padding: 120px 65px 130px 70px;
 }
 
 #description__organize img {
@@ -22,7 +23,7 @@
 }
 
 #organize__right p {
-    margin: 45px 0 35px 0;
+    margin: 45px 50px 35px 0;
     color: #828282;
     font-size: 20px;
 }
@@ -31,15 +32,6 @@
 
 #home__description {    
     margin: 0 110px 90px 150px; ???
-}
-
-Creo que ya no hace falta porque está en home
-.br--mobile {
-    display: block;
-}
-
-.br--desktop {
-    display: none;
 }
 
 */
@@ -59,11 +51,24 @@ Creo que ya no hace falta porque está en home
 
 #description__schedule {
     display: flex;
+    flex-wrap: wrap;
+    background-color: #e8eff6;
+    padding: 130px 65px 125px 70px;
 }
 
 #schedule__left {
     display: flex;
     flex-direction: column;
+}
+
+#schedule__left li {
+    list-style: none;
+}
+
+
+.fa-square-check {
+    color: #49d2a9;
+    margin-right: 10px;
 }
 
 .button--white {
@@ -75,12 +80,7 @@ Creo que ya no hace falta porque está en home
     border-radius: 30px;
 }
 
-.button--white:hover {
-    cursor: pointer;
-}
-
-
 #schedule__right img {
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
 }
