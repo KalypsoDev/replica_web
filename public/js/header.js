@@ -6,7 +6,7 @@ const observer = new IntersectionObserver(trackingScroll, { //le paso la funció
 
 function trackingScroll (entries) { //función que se llama cuando una sección entre o sale según el threshold
     const element = entries.filter(a => a.isIntersecting)     //entries es un array de objetos y filter coge los elementos para los que la función devuelve true (los que intersectan)
-        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0] //ordenamos los elementos que hayan quedado y nos quedamos con el que esté más dentro
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)?.[0] //ordenamos los elementos que hayan quedado y nos quedamos con el que esté más dentro
         ?.target; //sólo coge target si hay un elemento que coger
 
     if (!element) {
