@@ -11,8 +11,10 @@
 
 .testimonials__container {
     display: flex;
+    justify-content: center;
     column-gap: 20px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .testimonials__cards {
