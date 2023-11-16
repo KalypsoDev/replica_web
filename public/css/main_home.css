@@ -72,17 +72,6 @@ h1 {
     column-gap: 10px;
 }
 
-/*No puedo reutilizar el componente buttón--red?*/
-
-.button--red {
-    color: #ffffff; /*Revisar esto*/
-    background-color: #ff556e;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    border: 2px solid  #ff556e;
-    border-radius: 30px;
-}
-
 .button--red i {
     background-color: transparent;
     margin-right: 5px;
@@ -101,28 +90,26 @@ Usar clases en vez de ids si se repiten*/
 
 
 /*Revisar*/
-#circle--white--left {
+#medium__circle--white--left {
     height: 400px;
-    width: 400px;
     position: absolute; 
     top: -150px;
     left: 0;
     transform: translateX(-50%)
 }
 
-#circle--white--right {
+#medium__circle--white--right {
     height: 400px;
-    width: 400px;
     position: absolute; 
-    top: -200px;
+    top: -250px;
     right: 0;
     transform: translateX(50%);
 }
 
-#circle--blue--left {
+#medium__circle--blue--left {
     height: 100px;
     position: absolute;
-    top: -100px;
+    top: -80px;
     left: 140px;
 }
 

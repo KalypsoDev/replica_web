@@ -1,9 +1,9 @@
 #features {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     row-gap: 20px;
-    padding: 60px 65px 60px 70px;
+    padding: 30px 65px 30px 70px;
 }
 
 h2 {
