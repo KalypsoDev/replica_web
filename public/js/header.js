@@ -1,7 +1,7 @@
 const observer = new IntersectionObserver(trackingScroll, {
     root: null,
     rootMargin: '0px',
-    threshold: 0.50
+    threshold: 0.3
 });
 
 function trackingScroll (entries) {
