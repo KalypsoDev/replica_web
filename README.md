@@ -1,4 +1,4 @@
-# Proyecto personal 1-replica_web
+# Proyecto personal 1-replica_web (Sync)
 🎯 Main goal: create a replica of a website.
 
 ## Deployment
@@ -14,7 +14,7 @@
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Kalypso89/replica_web
+   git clone https://github.com/KalypsoDev/replica_web
     ```
 
 2. Open the index.html file in your web browser.
