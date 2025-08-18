@@ -1,15 +1,20 @@
-# Proyecto personal 1-replica_web (Sync)
-🎯 Main goal: create a replica of a website.
+
+# Personal project 1-replica_web (Sync)
+
+🎯 Main goal: Create a replica of this website: [Sync Template](https://www.elementwebsites.com/templates/sync/) (last updated on August 18, 2025).
 
 ## Deployment
+
 🚀 This project has been deployed on Cloudflare Pages : [replica_sync](https://replica-website-sync.pages.dev/)
 
 ## Sitemap
-👀 Here you can see the sitemap: 
-<img src="src/assets/img/Sitemap Sync.png">
+
+👀 Here you can see the sitemap:
+![Sitemap](src/assets/img/Sitemap Sync.png)
 
 ## Installation Guide
-▶ These are the steps you have to follow to start exploring the project:
+
+▶ Follow these steps to explore the project locally:
 
 1. Clone this repository to your local machine:
 
